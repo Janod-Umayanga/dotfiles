@@ -240,5 +240,9 @@ bar {
 # my key bindings
 bindsym $mod+Shift+x exec i3lock
 
-# startup apps
+# assign apps to workspaces
+assign [class="Gnome-terminal"] $ws1
+assign [class="Google-chrome"] $ws2
+
+# startup
 exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpapers/Lucy.jpg
