@@ -23,3 +23,10 @@ style = "Italic"
 [font.normal]
 family = "Agave Nerd Font Mono"
 style = "Regular"
+
+[window]
+opacity = 0.9
+
+[window.padding]
+x = 8
+y = 15

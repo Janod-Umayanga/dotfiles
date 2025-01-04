@@ -246,7 +246,14 @@ assign [class="Google-chrome"] $ws2
 assign [class="Spotify"] $ws9
 
 # startup processes/apps
+exec_always --no-startup-id picom
 exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpapers/Lucy.jpg
 # kill any hanging polybar processes
 exec_always killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
+
+# window configs
+gaps inner 10
+gaps outer 5
+
+for_window [class=".*"] border none
