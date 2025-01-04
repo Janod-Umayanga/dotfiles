@@ -239,6 +239,8 @@ client.background        $base
 
 # my key bindings
 bindsym $mod+Shift+x exec i3lock
+bindsym $mod+P exec --no-startup-id maim ~/Pictures/screenshots/$(date +'%Y-%m-%d_%H-%M-%S').png
+bindsym $mod+Shift+P exec --no-startup-id maim --select ~/Pictures/screenshots/$(date +'%Y-%m-%d_%H-%M-%S').png
 
 # assign apps to workspaces
 assign [class="Alacritty"] $ws1
