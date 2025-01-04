@@ -253,7 +253,7 @@ assign [class="org.gnome.Nautilus"] $ws10
 
 # startup processes/apps
 exec_always --no-startup-id picom
-exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpapers/Lucy.jpg
+exec_always --no-startup-id feh --bg-scale ~/Pictures/backgrounds/Lucy.jpg
 # kill any hanging polybar processes
 exec_always killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
