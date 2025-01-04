@@ -122,7 +122,7 @@ set $ws5 "5:󰠗"
 set $ws6 "6:󰠗"
 set $ws7 "7:󰠗"
 set $ws8 "8:󰠗"
-set $ws9 "9:󰠗"
+set $ws9 "9:"
 set $ws10 "10:󰠗"
 
 # switch to workspace
@@ -243,6 +243,7 @@ bindsym $mod+Shift+x exec i3lock
 # assign apps to workspaces
 assign [class="Alacritty"] $ws1
 assign [class="Google-chrome"] $ws2
+assign [class="Spotify"] $ws9
 
 # startup processes/apps
 exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpapers/Lucy.jpg
