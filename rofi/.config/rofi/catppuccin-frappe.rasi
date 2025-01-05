@@ -9,7 +9,7 @@
     grey: #737994;
 
     width: 600;
-    font: "Agave Nerd Font 16";
+    font: "JetBrainsMono Nerd Font 14";
 }
 
 element-text, element-icon , mode-switcher {
