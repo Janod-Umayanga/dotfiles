@@ -2,19 +2,19 @@
 configuration files for my Linux desktop environment.
 
 ## installation
-1. clone the repository
+clone the repository
 
     git clone https://github.com/Janod-Umayanga/dotfiles.git
 
-2. navigate to the cloned directory
+navigate to the cloned directory
 
     cd directory
 
-3. make the install.sh script executable
+make the install.sh script executable
 
     chmod +x install.sh
 
-4. run the install.sh
+run the install.sh
 
     ./install.sh
 
